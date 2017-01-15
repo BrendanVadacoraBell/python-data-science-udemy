@@ -29,3 +29,13 @@ class NumPyArrays:
     numpyRandom = numpy.random.randn(4,4)
 
     print(numpyRandom)
+
+    numpyRandomInt = numpy.random.randint(1,50,10)
+
+    print(numpyRandomInt)
+
+    print(numpyRandomInt.max())
+    print(numpyRandomInt.min())
+    print(numpyRandomInt.argmax())
+    print(numpyRandomInt.argmin())
+    print(numpyRandomInt.dtype)
